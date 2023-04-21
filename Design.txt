@@ -1,0 +1,15 @@
+Create a class with Page1, Page2, Page3 and exclude as static global String variables to store the text contents of the three input files and the exclude file.
+
+In the main method create five TreeSet objects: set, set1, set2, set3, and set4.
+
+These TreeSets will be used to store the unique words from the input files and the exclude words file.
+
+Then read the exclude words file, line by line, using a BufferedReader. For each line add the words to the exclude string, separating them by spaces. Then splits the exclude string into an array of words using the split method, and add each word to set4 in lowercase format.
+
+Then proceed to read the three input files in a similar way. 
+For each file, read it line by line, replace some special characters with " " or "" based on the conditions, removes digits, and concatenate the lines into a string. Then split the string into an array of words, add each word to set and to a set corresponding to the input file (set1 for Page1.txt, set2 for Page2.txt, and set3 for Page3.txt) in lowercase format.
+
+Finally, convert the TreeSets to ArrayLists and store them in al, al1, al2, al3, and al4, respectively. 
+
+Use BufferedWriter to write in The Design.txt
+Compare the al with al1,al2,al3 and write it in the Design.txt based on the conditions.

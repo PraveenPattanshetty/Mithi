@@ -12,6 +12,7 @@ public class ReadMultipleFiles {
 
 	public static void main(String[] args) {
 		File directory = new File("C:\\Users\\Admin\\OneDrive\\Desktop\\Misthi Tech");
+		//the location differs based on the system folders
 		String[] filenames1 = { "Page1.txt" };
 		String[] filenames2 = { "Page2.txt" };
 		String[] filenames3 = { "Page3.txt" };
